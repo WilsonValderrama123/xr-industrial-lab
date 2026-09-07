@@ -5,11 +5,8 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="0 1 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="2 1 -4" radius="1" color="#EF2D5E"></a-sphere>
-      <a-cylinder position="-2 1 -4" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane rotation="-90 0 0" width="10" height="10" color="#7BC8A4"></a-plane>
       <a-sky color="#ECECEC"></a-sky>
+      <a-plane rotation="-90 0 0" width="50" height="50" color="#7BC8A4"></a-plane>
 
       <a-assets>
         <a-asset-item id="modeloIndustrial" src="models/modelo.glb"></a-asset-item>
@@ -17,9 +14,9 @@
 
       <a-entity
         gltf-model="#modeloIndustrial"
-        position="0 0 -6"
+        position="0 0 -10"
         rotation="0 0 0"
-        scale="1 1 1"
+        scale="0.01 0.01 0.01"
       ></a-entity>
 
     </a-scene>
