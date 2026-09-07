@@ -10,6 +10,18 @@
       <a-cylinder position="-2 1 -4" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
       <a-plane rotation="-90 0 0" width="10" height="10" color="#7BC8A4"></a-plane>
       <a-sky color="#ECECEC"></a-sky>
+
+      <a-assets>
+        <a-asset-item id="modeloIndustrial" src="models/modelo.glb"></a-asset-item>
+      </a-assets>
+
+      <a-entity
+        gltf-model="#modeloIndustrial"
+        position="0 0 -6"
+        rotation="0 0 0"
+        scale="1 1 1"
+      ></a-entity>
+
     </a-scene>
   </body>
 </html>
